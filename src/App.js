@@ -8,6 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Components/Home'
 import Nav from './Components/Nav';
 import Error from './Components/Error';
+import AboutUs from './Components/AboutUs';
+
 function App() {
   return (
     <Router>
@@ -16,7 +18,9 @@ function App() {
         <Route exact path="/">
           <Home/>
         </Route>
-
+        <Route exact path="/about-us">
+          <AboutUs/>
+        </Route>
         <Route component={Error}/>
 
         </Switch>
