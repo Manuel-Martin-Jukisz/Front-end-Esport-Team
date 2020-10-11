@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Home from './Components/Home'
 import Nav from './Components/Nav';
-
+import Error from './Components/Error';
 function App() {
   return (
     <Router>
@@ -16,6 +16,9 @@ function App() {
         <Route exact path="/">
           <Home/>
         </Route>
+
+        <Route component={Error}/>
+
         </Switch>
     </Router>
 );
