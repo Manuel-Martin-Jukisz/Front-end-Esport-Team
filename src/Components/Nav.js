@@ -20,8 +20,8 @@ export default class Nav extends Component {
                             </Link>
                             </li>
                             <li className="active">
-                            <Link to='/jugadores'>
-                                <h3 className="">Jugadores</h3>
+                            <Link to='/contact'>
+                                <h3 className="">Contacto</h3>
                             </Link>
                             </li>
                         </ul>

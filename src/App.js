@@ -11,6 +11,7 @@ import Error from './Components/Error';
 import AboutUs from './Components/AboutUs';
 import Patrocinadores from './Components/Patrocinadores'
 import Jugadores from './Components/Jugadores'
+import Contact from './Components/Contact'
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route exact path="/jugadores">
           <Jugadores/>
+        </Route>
+        <Route exact path="/contact">
+          <Contact/>
         </Route>
         <Route component={Error}/>
 
