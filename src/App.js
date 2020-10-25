@@ -10,6 +10,7 @@ import Nav from './Components/Nav';
 import Error from './Components/Error';
 import AboutUs from './Components/AboutUs';
 import Patrocinadores from './Components/Patrocinadores'
+import Jugadores from './Components/Jugadores'
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route exact path="/patrocinadores">
           <Patrocinadores/>
+        </Route>
+        <Route exact path="/jugadores">
+          <Jugadores/>
         </Route>
         <Route component={Error}/>
 
