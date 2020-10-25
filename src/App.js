@@ -9,6 +9,7 @@ import Home from './Components/Home'
 import Nav from './Components/Nav';
 import Error from './Components/Error';
 import AboutUs from './Components/AboutUs';
+import Patrocinadores from './Components/Patrocinadores'
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route exact path="/about-us">
           <AboutUs/>
+        </Route>
+        <Route exact path="/patrocinadores">
+          <Patrocinadores/>
         </Route>
         <Route component={Error}/>
 

@@ -14,6 +14,11 @@ export default class Nav extends Component {
                                 <h3 className="">Home</h3>
                             </Link>
                             </li>
+                            <li className="active">
+                            <Link to='/patrocinadores'>
+                                <h3 className="">Patrocinadores</h3>
+                            </Link>
+                            </li>
                         </ul>
                         </div>
                     </div>

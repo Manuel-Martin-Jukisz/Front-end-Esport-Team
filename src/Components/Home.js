@@ -19,8 +19,8 @@ export default class Home extends Component {
                             </button>
                         </Link>
                     </div>
+                    </div>
                 </div>
-            </div>
         )
     }
 }
